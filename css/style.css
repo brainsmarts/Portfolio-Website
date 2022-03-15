@@ -4,20 +4,8 @@ body {
   padding: 0px;
 }
 
-.grouping {
-  display: grid;
-  grid-template-columns: 0.03fr 1fr 0.03fr;
-  margin-bottom: 50px;
-}
-
-.paragraphcontainer {
-  height: 900px;
-  background-color: #ff7570;
-}
-
-.nameheading {
-  font-size: 50px;
-  margin: 50px;
-  display: flex;
-  justify-content: center;
+html,
+body {
+  height: 100%;
+  margin: 0;
 }

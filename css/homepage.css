@@ -1,7 +1,35 @@
+* {
+  margin: 0;
+}
+
+.contentcontainer {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 0.1fr 0.6fr 0.1fr;
+}
+
+.headercontainer {
+  font-size: 150px;
+  margin: 0;
+  text-align: left;
+  bottom: 0%;
+}
+
+.infocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #181a22;
+}
+
+.contain {
+  margin-top: -15%;
+}
+
 .portfoliocontainer {
   display: grid;
-  grid-template-columns: 0.2fr 1fr 0.2fr 1fr 0.2fr;
-  margin: 100px;
+  grid-template-columns: 1fr;
+  align-items: center;
 }
 
 .portfolioitemcontainer {
@@ -15,6 +43,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  align-items: center;
   transition: filter 1s;
 }
 
@@ -30,6 +59,7 @@
 }
 
 .subtitlecontainer {
+  font-size: larger;
   transition: 0.7s;
   color: transparent;
 }
