@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/latestprojects.css" />
+    <title>Brian Cai</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbarcontainer">
+        <div class="leftside">
+          <div class="linkcontainer">
+            <a href="index.html">Home</a>
+          </div>
+          <div class="linkcontainer">
+            <a href="design.html">Design</a>
+          </div>
+          <div class="linkcontainer">
+            <a href="development.html">Development</a>
+          </div>
+        </div>
+        <div class="rightside">
+          <div class="name">Brian Cai</div>
+        </div>
+      </div>
+      <div class="contentcontainer">
+        <div class="aboutmecontainer">
+          <div class="aboutmeheader"></div>
+          <div class="aboutmeparagraph"></div>
+        </div>
+        <div class="portfoliocontainer">
+          <div class="space"></div>
+          <div class="portfolioitemcontainer">
+            <div
+              class="portfolioimgbackground"
+              style="background-image: url(images/prideweek.png)"
+            ></div>
+            <div class="imgtextcontainer">
+              <div class="subtitlecontainer">Words Words Words</div>
+            </div>
+          </div>
+          <div class="space"></div>
+          <div class="portfolioitemcontainer">
+            <div
+              class="portfolioimgbackground"
+              style="background-image: url(images/prideweek.png)"
+            ></div>
+            <div class="imgtextcontainer">
+              <div class="subtitlecontainer">Words Words Words</div>
+            </div>
+          </div>
+          <div class="space"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const portfolioItems = document.querySelectorAll(".portfolioitemcontainer");
+    portfolioItems.forEach((portfolioItems) => {
+      portfolioItems.addEventListener("mouseover", () => {
+        portfolioItems.childNodes[1].classList.add("imgdarken");
+      });
+
+      portfolioItems.addEventListener("mouseout", () => {
+        portfolioItems.childNodes[1].classList.remove("imgdarken");
+      });
+    });
+  </script>
+</html>

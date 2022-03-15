@@ -1,0 +1,23 @@
+.navbarcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbarcontainer > div {
+  display: flex;
+  margin: 10px;
+  font-size: larger;
+}
+
+.leftside a {
+  margin: 10px;
+  text-decoration: none;
+  color: #8a8a8a;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.7s, color 0.7s;
+}
+
+.leftside a:hover {
+  color: aqua;
+  border-bottom: solid aqua;
+}

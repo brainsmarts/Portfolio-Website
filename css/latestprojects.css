@@ -1,0 +1,44 @@
+.portfoliocontainer {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 0.2fr 1fr 0.2fr;
+}
+
+.portfolioitemcontainer {
+  position: relative;
+}
+
+.portfolioimgbackground {
+  height: 310px;
+  width: 100%;
+  filter: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: filter 1s;
+}
+
+.imgtextcontainer {
+  height: 310px;
+  width: 100%;
+  top: 0;
+  display: flex;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtitlecontainer {
+  transition: 0.7s;
+  color: transparent;
+}
+
+.imgtextcontainer:hover .subtitlecontainer {
+  transition: 0.7s;
+  color: aqua;
+}
+
+.imgdarken {
+  transition: 1s;
+  filter: brightness(50%);
+}
