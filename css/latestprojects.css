@@ -1,6 +1,7 @@
 .portfoliocontainer {
   display: grid;
   grid-template-columns: 0.2fr 1fr 0.2fr 1fr 0.2fr;
+  margin: 100px;
 }
 
 .portfolioitemcontainer {
@@ -35,10 +36,20 @@
 
 .imgtextcontainer:hover .subtitlecontainer {
   transition: 0.7s;
-  color: aqua;
+  color: whitesmoke;
+}
+
+.subtitlecontainer a {
+  transition: 0.7s;
+  color: transparent;
+}
+
+.imgtextcontainer:hover .subtitlecontainer a {
+  transition: 0.7s;
+  color: whitesmoke;
 }
 
 .imgdarken {
   transition: 1s;
-  filter: brightness(50%);
+  filter: brightness(30%);
 }
