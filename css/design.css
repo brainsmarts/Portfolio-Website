@@ -1,0 +1,25 @@
+.designshowcasecontainer {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 0.2fr;
+}
+
+.picturegridcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: start;
+}
+
+.picturegridcontainer img {
+  max-width: 90%;
+  margin: 50px;
+  margin-bottom: 0px;
+}
+
+.picturetext {
+  margin-left: 50px;
+  margin-right: 0px;
+  color: rgb(14, 14, 14);
+  text-align: center;
+  font-weight: 900;
+}

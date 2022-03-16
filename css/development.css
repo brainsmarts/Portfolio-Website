@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+
+.developmentcontentcontainer {
+  display: grid;
+  grid-template-columns: 0.55fr 1fr 0.55fr;
+}
+
+.developmentblogcontainer {
+  align-content: center;
+  grid-template-columns: 1fr;
+}
+
+.developmentblogcontentcontainer {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  margin-top: 100px;
+}
+
+.developmentblogcontentimage {
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.developmentblogcontenttext {
+  background-color: white;
+  height: 350px;
+}
+
+.developmentblogcontenttext h1 {
+  margin: 30px;
+  margin-left: 50px;
+  color: rgb(255, 117, 112);
+}
+
+.developmentblogcontenttext p {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  color: rgb(14, 14, 14);
+  font-size: 20px;
+}
+
+.developmentblogcontenttext a {
+  margin-left: 50px;
+  color: rgb(255, 117, 112);
+  text-decoration: none;
+}

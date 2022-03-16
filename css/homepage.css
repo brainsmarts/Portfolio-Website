@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #181a22;
+  color: rgb(14, 14, 14);
 }
 
 .contain {
@@ -30,6 +30,8 @@
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
+  margin: 20px;
+  margin-top: 0;
 }
 
 .portfolioitemcontainer {
@@ -37,7 +39,7 @@
 }
 
 .portfolioimgbackground {
-  height: 310px;
+  height: 350px;
   width: 100%;
   filter: none;
   background-size: cover;
